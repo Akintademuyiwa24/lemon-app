@@ -1,5 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+:root {
+  --font-roboto: "Roboto Slab", serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+}
 .App {
-  text-align: center;
+  margin: auto;
 }
 
 .App-logo {
@@ -13,19 +24,9 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
-  color: #61dafb;
+  /* color: #61dafb; */
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.navbar {
+  color: black;
+  padding: 6px 120px 2px 50px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.nav-item{
+  color:black;
+  list-style: none;
+  text-decoration: none;
 }
