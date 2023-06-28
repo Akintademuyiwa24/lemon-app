@@ -5,12 +5,16 @@ import Menu from './Menu'
 import './Menu.css'
 import { Link } from 'react-router-dom'
 
+const Styling ={
+  marginTop: 50,
+}
+
 function Homepage() {
   return (
     <div className="homep">
     <div className='first-part'>
       <div className="container">
-        <div className="row ch" >
+        <div className="row" >
           <div className="col-md-6 col-sm-12" >
             <h1>Little Lemon</h1>
             <h3 style={{color: 'white', marginTop: -12, marginBottom: 18, fontSize: 24}}>Chicago</h3>
@@ -26,12 +30,9 @@ function Homepage() {
           <div className="col-md-6 col-sm-12">
             <img src={image1} alt="image1" className='waiter'/>
           </div>
-
+          <span style={Styling}><Menu /></span>
         </div>
       </div>
-      </div>
-      <div className='col-12' style={{marginLeft:-50, marginTop:80, width:1100}}>
-        <Menu />
       </div>
     </div>
   )

@@ -6,7 +6,7 @@
 .menu{
    background-color: #edefee;
    border-radius: 8px;
-   margin-left: 20px;
+   margin-left: 10px;
    padding: 0;
    /* padding: 10px; */
 }
@@ -24,9 +24,7 @@
 h1{
    font-size: 30px;
 }
-.menu-tab{
-   padding: 5px 50px 2px 180px;
-}
+
 h4{
    font-size: 12px;
    font-weight: bold;
@@ -44,3 +42,20 @@ p{
    font-family: montserat;
    padding: 1px 15px;
 }
+
+/* media queries */
+@media screen and (max-width: 600px) {
+   .menu{
+      margin-bottom: 30px;
+
+   }
+ }
+ 
+ @media screen and (max-width: 400px) {
+   .menu{
+      margin-bottom: 30px;
+      max-width: 100%;
+      
+   }
+}
+/* end */

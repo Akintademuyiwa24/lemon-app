@@ -16,16 +16,20 @@ function App() {
   return (
     <div className='App'>
       <div className="container">
-        <nav className='navbar'>
-          <img src={logo} alt="logo" width={80} />
-          <Link to="/" className='nav-item'>Home</Link>
-          <Link to="/hero" className='nav-item'>About</Link>
-          <Link to="/menu" className='nav-item'>Menu</Link>
-          <Link to="/reserve" className='nav-item'>Reservation</Link>
-          <Link to="/order" className='nav-item'>Order Online</Link>
-          <Link to="/login" className='nav-item'>Login</Link>
-        </nav>
+        <div className='row'>
+          <div className='col-md-12 col-sm3'>
+            <nav className='navbar'>
+              <img src={logo} alt="logo" width={80} />
+              <Link to="/" className='nav-item'>Home</Link>
+              <Link to="/hero" className='nav-item'>About</Link>
+              <Link to="/menu" className='nav-item'>Menu</Link>
+              <Link to="/reserve" className='nav-item'>Reservation</Link>
+              <Link to="/order" className='nav-item'>Order Online</Link>
+              <Link to="/login" className='nav-item'>Login</Link>
+            </nav>
+          </div>
         </div>
+      </div>
       <Routes>
         <Route path="/hero" element={<Heropage/>}></Route>
         <Route path="/" element={<Homepage />}></Route>

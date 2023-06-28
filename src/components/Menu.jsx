@@ -13,11 +13,11 @@ function Menu() {
           <div className="col-md-6 col-sm-12" style={{marginBottom: 15, }}>
             <h1 style={{color: 'black'}}>This weeks Specials!</h1>
           </div>
-          <div className="offset-2 col-md-2">
+          <div className="offset-2 col-md-2 col-sm-12">
             <button className='btn specials'>Online Menu</button>
           </div>
-          <div className="row">
-            <div className="col-3 menu">
+          <div className="row main-menu">
+            <div className="col-md-3 col-sm-12 menu">
               <img src={salad} alt="salad-pic" className='img-fluid rounded salad-img' style={{marginBottom:10}}/>
               <h4>Greek salad <span className='spans'>$ 5.00</span> </h4>
               <p>
@@ -29,7 +29,7 @@ function Menu() {
                 croutons.
               </p>
             </div>
-            <div className="offset-1 col-3 menu">
+            <div className="offset-1 col-md-3 col-sm-12 menu">
               <img src={bruchetta} alt="bruchetta-pic" className='img-fluid rounded b-img' style={{marginBottom:10}}/>
               <h4>Bruchetta <span className='spans' >$ 5.00</span></h4>
               <p>
@@ -40,7 +40,7 @@ function Menu() {
                 oil.
               </p>
             </div>
-            <div className="offset-1 col-3 menu">
+            <div className="offset-1 col-md-3 col-sm-12 menu">
               <img src={lemon} alt="lemon-pic" className='img-fluid rounded salad-img' style={{marginBottom:10}}/>
               <h4  className='lem'>Lemon Dessert <span className='spans'>$ 5.00</span> </h4>
               <p>
