@@ -29,7 +29,6 @@ function OrderOnline() {
                   <option value="">19:00</option>
                   <option value="">20:00</option>
                   <option value="">21:00</option>
-                  <option value="">22:00</option>
                 </select>
               </div>
             </div>
